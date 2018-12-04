@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
    
-    "compile:sass": "node-sass sass/main.scss css/style.comp.css"
+    "compile:sass": "node-sass sass/main.scss css/style.css",
+    "devserver":"live-server --browser=firefox"
   
   },
   "author": "Brandon",
