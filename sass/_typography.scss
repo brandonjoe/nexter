@@ -4,6 +4,9 @@
 }
 .heading-1{
     @extend %heading;
+    font-size: 4.5rem;
+    color: $color-grey-light-1;
+    line-height: 1;
 }
 .heading-2{
     @extend %heading;
@@ -44,8 +47,11 @@
     padding: 1.8rem 3rem;
     cursor: pointer;
     transition: all .2s;
+    box-shadow: 0 1.5rem 2rem rgba(black, .2);
+    transition: all .2s;
      &:hover{
          background-color: $color-primary-dark;
+         transform: translateY(.2rem);
      }
 }
 .mb-sm{margin-bottom: 2rem;}
